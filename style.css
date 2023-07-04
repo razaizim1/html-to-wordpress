@@ -1,0 +1,98 @@
+/* 
+Theme Name: Xtra-Razai Zim
+Theme URI: https://github.com/razaizim1
+Author: Razai Zim
+Author URI: https://github.com/razaizim1
+Version: 1.0.0
+Description: This is a great theme by Razai Zim
+Tags: Xtra-razai Zim
+Text Domain: xtra
+*/
+
+/* .nav-links .page-numbers {
+  background-color: #f0f0f0;
+  color: #999;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.nav-links {
+  display: flex;
+}
+.nav-links .page-numbers {
+  background-color: #f0f0f0;
+  color: #999;
+  /* width: 50px; */
+  /* height: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto 10px;
+}
+
+.nav-links .current {
+  background-color: #0cc;
+  color: white;
+}
+
+.tm-prev-next-wrapper a {
+  color: #0cc;
+}
+
+.post-thumbnail img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.xtra_widget_categories ul,
+.xtra_widget_archive ul {
+  list-style: none;
+  padding-left: 3rem !important;
+}
+
+.xtra_widget_categories ul li a,
+.xtra_widget_archive ul li a {
+  color: #099;
+}
+
+.sideheader {
+  text-align: center;
+}
+
+.sideheader img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.filter ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter ul li {
+  background-color: black;
+  color: #fff;
+  margin: 0 10px;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.mixitup-control-active {
+  background-color: #099 !important;
+}
+
+.single-gallery {
+  max-width: 60%;
+  height: auto;
+  object-fit: cover;
+}
